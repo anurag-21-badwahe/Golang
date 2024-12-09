@@ -1,6 +1,11 @@
 package main
-import "fmt"
 
-func main(){
-	fmt.Println("Hello world")
+import (
+    "fmt"
+    "myproject/myutil" 
+)
+
+func main() {
+    fmt.Println("Hello from main!")
+    myutil.PrintMyUtil("Hello from myutil!")
 }
